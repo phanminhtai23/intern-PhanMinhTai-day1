@@ -1,9 +1,9 @@
 import { describe, expect, test } from "vitest";
-import { get } from "./hello";
+import { get } from "./mission-brief";
 
 describe("get", () => {
   test("should combine string with parameter value", async () => {
-    const resp = await get({ name: "world" });
-    expect(resp.message).toBe("Hello world!");
+    const resp = await get();
+    expect(resp.message).toBe("hello from The Farm");
   });
 });
