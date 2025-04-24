@@ -1,4 +1,5 @@
 {
 	"id":   "first-encore-project-x9si",
-	"lang": "typescript"
+	"lang": "typescript",
+	"migrations": "./migrations"
 }
